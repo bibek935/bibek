@@ -12,3 +12,9 @@ document.getElementById("blueBtn").addEventListener("click", () => {
   document.getElementById("message").innerText =
     "青ボタンを " + blueCount + " 回押しました";
 });
+
+document.getElementById("yellobtn").addEventListener("click", () => {
+  yelloCount++;
+  document.getElementById("message").innerText =
+    "青ボタンを " + yelloCount + " 回押しました";
+});
